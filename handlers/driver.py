@@ -3,11 +3,6 @@ from selenium.webdriver.chrome.service import Service
 import json
 import random
 
-<<<<<<< HEAD
-#import undetected_chromedriver as uc
-
-=======
->>>>>>> 46d975a10c41753aedcedc31f3a6e7df2358cddb
 class Driver():
 
     _driver = None
@@ -17,10 +12,6 @@ class Driver():
         Создание Chrome драйвера
     '''
     def create_driver():
-<<<<<<< HEAD
-
-=======
->>>>>>> 46d975a10c41753aedcedc31f3a6e7df2358cddb
         # Получение рандомного юзер агента
         def random_user_agent():
             with open("data/user_agents.txt") as inp:
@@ -28,31 +19,6 @@ class Driver():
             return random.choice(lines).strip()
 
 
-<<<<<<< HEAD
-        options = webdriver.ChromeOptions()
-        options.page_load_strategy = "eager"
-        options.add_argument("--start-maximized")
-        #options.add_argument("--headless=new")
-        options.add_argument("--disable-images")
-        options.add_argument("--blink-settings=imagesEnabled=false")
-        options.add_argument("--disable-blink-features=AutomationControlled")
-        options.add_argument(f"--user-agent={random_user_agent()}")
-        options.add_argument("--disable-crash-reporter")
-        options.add_argument("--disable-extensions")
-        options.add_argument("--disable-in-process-stack-traces")
-        options.add_argument("--disable-logging")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--log-level=3")
-        options.add_argument("--output=/dev/null")
-        options.add_experimental_option("excludeSwitches", ["enable-logging"])
-        options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        options.add_experimental_option("useAutomationExtension", False)
-        service = Service()
-
-        driver = webdriver.Chrome(service=service, options=options)
-        #driver = uc.Chrome(options=options)
-        return driver
-=======
         try:
             options = webdriver.ChromeOptions()
             options.page_load_strategy = "eager"
@@ -78,7 +44,6 @@ class Driver():
             return driver
         except Exception as e:
             print(f'Возникла ошибка при создании драйвера Chrome: {e}')
->>>>>>> 46d975a10c41753aedcedc31f3a6e7df2358cddb
     
 
     '''
