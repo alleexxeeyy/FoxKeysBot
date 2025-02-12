@@ -75,8 +75,8 @@ class Scrapper():
             ip = "hot.aresmine.me"
             Logger.log(f'Извлечение никнеймов {url}')
 
-            driver.get(url)
             driver = Driver.get_driver()
+            driver.get(url)
 
             WebDriverWait(driver, max_wait).until(
                 EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.last-purchase-card_root__kfg2W'))
