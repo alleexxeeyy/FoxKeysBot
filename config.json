@@ -1,0 +1,1 @@
+{"checker_settings": {"auto_checker_delay": 15, "output_file_path": "output/checked.json", "checker_compile_into_quantity": true, "checker_remove_combo_logs": false, "checker_auto_decrypt_hashes": true, "checker_results_from_2022_2024": false}, "other_settings": {"driver_max_wait": 30}}
