@@ -32,6 +32,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -61,6 +62,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -89,6 +91,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -117,6 +120,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -145,6 +149,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -173,6 +178,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -202,6 +208,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -231,6 +238,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -260,6 +268,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -289,6 +298,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -318,6 +328,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -347,6 +358,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -378,6 +390,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -406,6 +419,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
@@ -435,6 +449,7 @@ class Scrapper():
                 if nickname:
                     nicknames[nickname] = {}
                     nicknames[nickname]["product"] = product
+            Logger.log(f'Извлечено {len(nicknames)} никнеймов')
             return {ip : nicknames}
         except:
             return {}
